@@ -23,3 +23,7 @@ Desktop app that classifies animal and object photos with Google's Inception (Im
 - Do not edit `imagenet_comp_graph_label_strings.txt`: label order must match the model.
 - On Apple Silicon use an ARM (aarch64) JDK; the pom uses TensorFlow Java 1.0.0.
 EOF
+## Screenshots
+
+![Results 1](docs/results-1.png)
+![Results 2](docs/results-2.png)
