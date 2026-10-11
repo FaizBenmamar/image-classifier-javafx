@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="GUI.ImageClassifierController">
+    <children>
+        <VBox spacing="20" alignment="TOP_CENTER" AnchorPane.topAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.bottomAnchor="10.0">
+            <!-- Title and Description -->
+            <VBox spacing="10" alignment="CENTER">
+                <Label text="Image Classifier" style="-fx-font-size: 24px; -fx-font-weight: bold; -fx-text-fill: #2c3e50;" />
+                <Label text="Upload images to classify them using a deep learning model. You can reset or delete selections as needed."
+                       wrapText="true" style="-fx-font-size: 14px; -fx-text-fill: #7f8c8d; -fx-text-alignment: center;" />
+            </VBox>
+
+            <!-- Buttons Section -->
+            <HBox spacing="15" alignment="CENTER">
+                <Button fx:id="loadButton" text="Load Images" styleClass="primary-button" />
+                <Button fx:id="classifyButton" text="Classify" styleClass="primary-button" />
+                <Button fx:id="deleteButton" text="Delete" styleClass="secondary-button" />
+                <Button fx:id="resetButton" text="Reset" styleClass="secondary-button" />
+            </HBox>
+
+            <!-- Progress Indicator -->
+            <ProgressIndicator fx:id="loadingIndicator" visible="false" />
+
+            <!-- Image Display Pane -->
+            <ScrollPane fitToWidth="true" fitToHeight="400" style="-fx-padding: 10;" >
+                <TilePane fx:id="imageDisplayPane" prefColumns="3" hgap="15" vgap="15" styleClass="image-tile-pane"
+                          prefHeight="400" />
+            </ScrollPane>
+        </VBox>
+    </children>
+</AnchorPane>

@@ -1,0 +1,69 @@
+/* Root styling */
+.root {
+    -fx-font-family: "Arial";
+    -fx-background-color: #f7f9fb;
+}
+
+/* Label Styling */
+.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #2c3e50;
+}
+
+/* Title Label Styling */
+.label.title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #34495e;
+}
+
+/* Button Styling */
+.primary-button {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 10 20;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+
+.primary-button:hover {
+    -fx-background-color: #2980b9;
+}
+
+.secondary-button {
+    -fx-background-color: #95a5a6;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 10 20;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+
+.secondary-button:hover {
+    -fx-background-color: #7f8c8d;
+}
+
+/* Progress Indicator Styling */
+.progress-indicator {
+    -fx-progress-color: #3498db;
+}
+
+/* Image Tile Pane Styling */
+.image-tile-pane {
+    -fx-padding: 15;
+    -fx-background-color: #ffffff;
+    -fx-border-color: #dcdcdc;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+
+/* Selected Image Box Styling */
+.image-box-selected {
+    -fx-border-color: #e74c3c;
+    -fx-border-width: 3;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
