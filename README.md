@@ -25,5 +25,15 @@ Desktop app that classifies animal and object photos with Google's Inception (Im
 EOF
 ## Screenshots
 
+**Start screen**
+
+![Start screen](docs/start-screen.png)
+
+**Sample photos**
+
+![Sample photos](docs/sample-photos.png)
+
+**Classification results**
+
 ![Results 1](docs/results-1.png)
 ![Results 2](docs/results-2.png)
